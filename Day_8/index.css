@@ -1,0 +1,35 @@
+.container {
+  border: 1px solid black;
+  background-color: #61b18a;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: #f0eaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 50px;
+}
+.date {
+  padding-right: 100px;
+  margin-left: 10px;
+}
+.email {
+  padding-right: 20px;
+}
+.tel {
+  padding-right: 20px;
+}
+#submit {
+  border: 1px solid orchid;
+  background-color: #65a925;
+  padding: 10px;
+}
